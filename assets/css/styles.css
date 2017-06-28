@@ -10,6 +10,9 @@ h1, h2, h3 {
     font-weight: 700;
     color: #4aaaa5;
 }
+p {
+    padding-top: 10px;
+}
 #logo {
     float: left;
     width: 250px;
@@ -33,6 +36,12 @@ nav a {
     text-decoration: none;
     border-left: 1px solid #efefef;
 }
+img {
+    float: left;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
 .main-section {
     float: left;
     width: 100%;
@@ -40,6 +49,12 @@ nav a {
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
+}
+.main-section h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
 }
 .sidebar {
     float: right;
@@ -63,9 +78,9 @@ h3, .sidebar h2 {
     border-bottom: 2px solid #eee;
 }
 
-.col-md-12.aboutme {
+/*.col-md-12.aboutme {
     border-bottom: 2px solid #000000;
-}
+}*/
 
 
 footer {
